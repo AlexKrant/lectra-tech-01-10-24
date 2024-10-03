@@ -12135,3 +12135,22 @@ blockquote {
   font-style: normal;
   font-display: swap;
 }
+
+
+
+.feature-item-white-block:hover {
+  background-color: var(--dark-color); /* Темный фон, как на левой карточке */
+  border: none; /* Убираем границу */
+}
+
+.feature-item-white-block:hover h5 {
+  color: var(--primary); /* Цвет заголовка, как на левой карточке */
+}
+
+.feature-item-white-block:hover .paragraph-small {
+  color: var(--white); /* Цвет текста на карточке */
+}
+
+.feature-item-white-block:hover .subtitle-dot {
+  background-image: radial-gradient(circle, rgba(0, 87, 250, 0.5), rgba(255, 255, 255, 0)); /* Радужная иконка */
+}
